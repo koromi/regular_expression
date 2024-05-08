@@ -1,1 +1,1 @@
-# regular_expression
+Pythonの正規表現サンプルコード
