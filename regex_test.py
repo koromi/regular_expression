@@ -1124,7 +1124,8 @@ print("'(?i)'マッチ:", matches)
 
 
 # (4) '(?m)' = re.MULTILINE、re.M
-#     説明: 大文字と小文字を区別しないマッチができます。
+#     説明: 複数行モードになります。複数行モードでは、
+#          '^' や '$' を使用して、各行でマッチできる。
 regex = re.compile(r"(?m)^\w+")
 matches = regex.findall("apple\nbanana\ncherry")
 print("'(?m)'マッチ:", matches)
